@@ -26,7 +26,7 @@ namespace MVCTests.Controllers
         {
             var result = _productController.Get().Result;
 
-            Assert.IsNotNull(result);
+            Assert.IsInstanceOfType(result.Result, typeof(OkObjectResult));
         }
 
         [TestMethod]

@@ -26,7 +26,7 @@ namespace MVCModel.Models.Product
         /// Price of the product. 
         /// </summary>
         [JsonPropertyName("price")]
-        public int Price { get; set; }
+        public long Price { get; set; }
         /// <summary>
         /// Gets or sets the price of the item, including applicable taxes.
         /// </summary>
