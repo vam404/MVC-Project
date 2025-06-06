@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Build output
+/dist/
+/bazel-out
+/build/
+/tmp/
+/out-tsc/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+.settings/
+.c9
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular CLI cache
+.angular/
+
+# Compiled output
+*.js
+*.d.ts
+*.map
+
+# Environment files
+.env
+.env.*.local
+
+# Secret files
+*secret.js
+
+# Husky
+.husky/_
+
+# VSCode local history
+.history
+
+# Bazel and ng-dev user settings
+.bazelrc.user
+.ng-dev.user*
+
+# Misc
+baseline.json
+.notes.md
+
+# Devcontainer
+.devcontainer/*
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+
+# Swap files
+*.swo
+*.swp
+
+# Rollup-test output
+/modules/rollup-test/dist/
+
+# SSR benchmarks
+modules/ssr-benchmarks/node_modules/
+
+# Flutter/Dart
+pubspec.lock

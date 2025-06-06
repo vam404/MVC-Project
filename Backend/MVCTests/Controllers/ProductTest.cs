@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCApp.Controllers;
 using MVCBusiness.Services;
-using MVCModel.Models.Product;
 using MVCServiceClient.Client;
-using System.Text.Json;
 
 namespace MVCTests.Controllers
 {
