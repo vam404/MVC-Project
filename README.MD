@@ -12,12 +12,14 @@ This is a .NET 8 application with an ASP.NET Core backend and an Angular fronten
 
 ### Backend
 1. Open a terminal in the `Backend` folder.
-2. Run: `dotnet restore dotnet build dotnet run`
-3. The API should be accessible at [http://localhost:5141](http://localhost:5141).
+2. Run: `dotnet restore | dotnet build`
+3. Open a terminal in the `Backend\MVCApp` folder.
+4. Run: `dotnet run`
+5. The API should be accessible at [http://localhost:5141](http://localhost:5141).
 
 ### Frontend
 1. Open a separate terminal in the `Frontend` folder.
-2. Run: `npm install npm start`
+2. Run: `npm install | npm start`
 3. The frontend should be accessible at [http://localhost:4200](http://localhost:4200).
 
 ## Testing
