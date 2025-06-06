@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MVCBusiness\MVCBusiness.csproj" />
+    <ProjectReference Include="..\MVCModel\MVCModel.csproj" />
   </ItemGroup>
 
 </Project>
